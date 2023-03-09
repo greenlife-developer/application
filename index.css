@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(0, 119, 133, 0.2);
+    /* display: flex; */
+    font-family: 'Roboto', sans-serif;
+    /* justify-content: center; */
+}
+
+header{
+    height: 60px;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+header .logo-menu{
+    width: 600px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    width: 450px;
+    justify-content: space-between;
+}
+
+header ul li{
+    cursor: pointer;
+    list-style: none;
+}
+
+.get-hired-container{
+    margin-top: 2rem;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.get-hired-container .oversea{
+    background-color: #fff;
+    width: 75%;
+    padding: 15px;
+}
+
+.get-hired-container .job-description{
+    width: 75%;
+}
+
+.get-hired-container .oversea ul li{
+    list-style: square;
+    margin-right: 1rem;
+}
+
+.get-hired-container .oversea .job-title{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.get-hired-container .oversea .title{
+    margin-bottom: .2rem;
+}
+
+.get-hired-container .oversea .title-container{
+    width: 100% !important;
+}
+
+.get-hired-container .oversea a{
+    text-decoration: none;
+    color: #000;
+    width: 100% !important;
+}
+
+.get-hired-container .oversea .title-body h4{
+    margin-bottom: 1rem;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: .5px;
+}
+
+.get-hired-container .oversea .title-body table{
+    /* display: inline-block; */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.get-hired-container .oversea .title-body table tr{
+    text-align: left;
+    background-color: #fff;
+    margin-right: 1rem;
+}
+
+.get-hired-container .oversea .title-body table tr th, .get-hired-container .oversea .title-body table tr td{
+    margin-right: 1rem;
+}
+
+
